@@ -1,0 +1,19 @@
+0.  TODO
+1. GIF has support for animations, and recently, they have added animations to PNG.
+2. Lossy compression sacrifices quality by for space. Lossless compression is compression without lowering the quality.
+3. JPEG is lossy compressed. 
+4. The system removes the data pointing to the file from the file table which marks it as free space.
+5. Write over the data. The more times the better.
+6. Declarations of different types of integers.
+7. So you can have the exact number of space you want reserved for what you want.
+8. A BYTE is one byte, a WORD is two bytes, a LONG is four bytes, a DWORD is four bytes.
+9. BM.
+10. TODO
+11. BMPs are stored from bottom to top.
+12. biBitCount
+13. The file might not be found.
+14. So it only reads one at a time.
+15. 1
+16. Skip data.
+17. The current position in the file.
+18. Milo Banana.

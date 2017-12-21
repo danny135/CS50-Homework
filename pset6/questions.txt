@@ -1,0 +1,15 @@
+0.  A lung disease and a the longest word in any English dictionary.
+1.  Provides resource usage data.
+2.  16
+3.  Because they are structs and it would be a waste of resources to make a copy of them.
+4.  First it creates a FILE object and instatiates it with fopen. 
+    Then it creates a buffer to read the words into and loops through every character in the file.
+    It puts characters into the buffer, resetting the buffer after each word/check.
+    It ignores words with numbers and strings that are longer than the max length.
+5.  fscanf doesn't handle corner cases well, while fgetc allows you to easily handle everything as it goes character by character.
+    With fgetc you can just skip characters.
+6.  So that the original string is not modified. It does not need to be changed.
+7.  I used a hash table with regular nodes and linked lists. Each node has a string/word and a pointer to another node or NULL.
+8.  It took about 15 seconds to check the Austin Powers file because my hash was constant.
+9.  I improved my hashing function with some simple multiplication and character addition.
+10. The hash can probably be improved, but everything else looks pretty standard.
